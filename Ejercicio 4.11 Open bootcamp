@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ganando precisión con los selectores en CSS</title>
+  <link rel="stylesheet" href="411.css">
+</head>
+<body>
+  <h1 id="titulo" class="encabezado">Lista de la compra</h1>
+    <ul>
+      <li id="elemento-1">manzanas</li>
+      <li id="elemento-2">peras</li>
+      <li id="elemento-3">piña</li>
+      <li id="elemento-4">cocos</li>
+      <li id="elemento-5">uvas</li>
+    </ul>
+    <ol>
+      <li id="elemento-1">Cash</li>
+      <li id="elemento-2">Mercadona</li>
+      <li id="elemento-3">Coviran</li>
+      <li id="elemento-4">Carrefour</li>
+      <li id="elemento-5">Aldi</li>
+    </ol> 
+</body>
+</html>
+
+-----CSS----
+#elemento-1 {
+    color:red;
+}
+ol #elemento-1 {
+    font-size: 2rem;
+}
